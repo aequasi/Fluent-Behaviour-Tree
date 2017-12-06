@@ -15,14 +15,14 @@ namespace FluentBehaviourTree
         /// </summary>
         private string name;
         
-        private boolean keepState;
+        private bool keepState;
 
         /// <summary>
         /// List of child nodes.
         /// </summary>
         private List<IBehaviourTreeNode> children = new List<IBehaviourTreeNode>(); //todo: optimization, bake this to an array.
 
-        public SelectorNode(string name, boolean keepState = false)
+        public SelectorNode(string name, bool keepState = false)
         {
             this.name = name;
             this.keepState = keepState;
