@@ -62,7 +62,7 @@ namespace FluentBehaviourTree
         /// <summary>
         /// Create a sequence node.
         /// </summary>
-        public BehaviourTreeBuilder Sequence(string name, boolean keepState = false)
+        public BehaviourTreeBuilder Sequence(string name, bool keepState = false)
         {
             var sequenceNode = new SequenceNode(name, keepState);
 
@@ -94,7 +94,7 @@ namespace FluentBehaviourTree
         /// <summary>
         /// Create a selector node.
         /// </summary>
-        public BehaviourTreeBuilder Selector(string name, boolean keepState = false)
+        public BehaviourTreeBuilder Selector(string name, bool keepState = false)
         {
             var selectorNode = new SelectorNode(name, keepState);
 
